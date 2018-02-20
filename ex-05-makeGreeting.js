@@ -7,6 +7,10 @@
  *
  **/
 
+ function makeGreeting(nombre){
+ 	return "Hello " + nombre
+ }
+
 
 
 
@@ -19,4 +23,4 @@ var funcOutput2 = makeGreeting("Mira")
 console.assert( funcOutput2 === "Hello Mira");
 
 var funcOutput3 = makeGreeting("Nico")
-console.assert(funcOutput3 !== "Hello Nico");
+console.assert(funcOutput3 === "Hello Nico");

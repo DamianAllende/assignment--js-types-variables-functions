@@ -6,7 +6,16 @@
  *
  **/
 
+function isVowel(letra){
+	if (letra == 'a' || letra == 'e' || letra == 'i'  || letra == 'o' || letra == 'u' || letra == 'A' || letra == 'E' || letra =='I'  || letra == 'O' || letra == 'U'
+		|| letra == 'y'){
+		return true 
 
+	}else{
+		return false
+	}
+
+}
 
 
 

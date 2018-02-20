@@ -4,7 +4,24 @@
  * Write a function called isNegative that returns true/false for
  * whether a number is negative or not.
  *
+
+
+
  **/
+
+
+ function isNegative(valor) {
+
+ 	if(valor < 0){
+ 		return true
+ 	}else{
+ 		return false
+ 	}
+
+ 	
+ }
+
+
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

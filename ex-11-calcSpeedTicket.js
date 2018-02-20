@@ -31,8 +31,26 @@
  *
  **/
 
+function calcSpeedTicket(limite, usuario, zona){
+	if (limite < usuario) {
+		let max = usuario - limite
+		console.log(max)
+
+			 if (max < 20 && zona === false) {
+			 	return 150
+			} else if (max < 20 && zona === true){
+				return 300
+			} else if (max >= 20 && zona === false) {
+				return 250
+			} 	else if (max >= 20 && zona === true) {
+				return 500
+			}
 
 
+			}else{
+				return 0
+			}
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

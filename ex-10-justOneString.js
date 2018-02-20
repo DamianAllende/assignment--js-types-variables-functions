@@ -6,6 +6,15 @@
  * but returns false if both arguments or neither are strings
  *
  **/
+function justOneString(item1, item2){
+	if (typeof item1 === "string" && typeof item2 !== "string"  ||  typeof item1 !== "string" && typeof item2 === "string" ) {
+		return true
+	} else{
+		return false
+	}
+}
+
+
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

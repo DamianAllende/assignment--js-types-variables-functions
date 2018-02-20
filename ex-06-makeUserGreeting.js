@@ -19,7 +19,15 @@
  **/
 
 
+function  makeUserGreeting( name, boleano){
+	if(boleano === true){
 
+		return "Good to see you again, "+name+"."
+
+	}else{
+		return "Welcome, " +name+"!"
+	}
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
